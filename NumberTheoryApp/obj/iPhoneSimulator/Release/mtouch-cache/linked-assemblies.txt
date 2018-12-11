@@ -1,0 +1,8 @@
+RemoveDynamicRegistrar:false
+/Users/richardteerlink/Desktop/NumberTheoryApp/bin/iPhoneSimulator/Release/NumberTheoryApp.app:/Users/richardteerlink/Desktop/NumberTheoryApp/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/NumberTheoryApp.exe
+/Users/richardteerlink/Desktop/NumberTheoryApp/bin/iPhoneSimulator/Release/NumberTheoryApp.app:/Users/richardteerlink/Desktop/NumberTheoryApp/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/mscorlib.dll
+/Users/richardteerlink/Desktop/NumberTheoryApp/bin/iPhoneSimulator/Release/NumberTheoryApp.app:/Users/richardteerlink/Desktop/NumberTheoryApp/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+/Users/richardteerlink/Desktop/NumberTheoryApp/bin/iPhoneSimulator/Release/NumberTheoryApp.app:/Users/richardteerlink/Desktop/NumberTheoryApp/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/System.dll
+/Users/richardteerlink/Desktop/NumberTheoryApp/bin/iPhoneSimulator/Release/NumberTheoryApp.app:/Users/richardteerlink/Desktop/NumberTheoryApp/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/Mono.Security.dll
+/Users/richardteerlink/Desktop/NumberTheoryApp/bin/iPhoneSimulator/Release/NumberTheoryApp.app:/Users/richardteerlink/Desktop/NumberTheoryApp/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/System.Xml.dll
+/Users/richardteerlink/Desktop/NumberTheoryApp/bin/iPhoneSimulator/Release/NumberTheoryApp.app:/Users/richardteerlink/Desktop/NumberTheoryApp/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/System.Core.dll

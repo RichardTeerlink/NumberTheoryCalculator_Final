@@ -1,0 +1,12 @@
+/Users/richardteerlink/Desktop/NumberTheoryApp/obj/iPhoneSimulator/Release/ibtool/_BundleResourceWithLogicalName.items
+/Users/richardteerlink/Desktop/NumberTheoryApp/obj/iPhoneSimulator/Release/actool/_PartialAppManifest.items
+/Users/richardteerlink/Desktop/NumberTheoryApp/obj/iPhoneSimulator/Release/actool/_BundleResourceWithLogicalName.items
+/Users/richardteerlink/Desktop/NumberTheoryApp/obj/iPhoneSimulator/Release/coremlc/_PartialAppManifest.items
+/Users/richardteerlink/Desktop/NumberTheoryApp/obj/iPhoneSimulator/Release/coremlc/_BundleResourceWithLogicalName.items
+/Users/richardteerlink/Desktop/NumberTheoryApp/obj/iPhoneSimulator/Release/optimized/
+/Users/richardteerlink/Desktop/NumberTheoryApp/obj/iPhoneSimulator/Release/NumberTheoryApp.csprojAssemblyReference.cache
+/Users/richardteerlink/Desktop/NumberTheoryApp/obj/iPhoneSimulator/Release/NumberTheoryApp.csproj.CoreCompileInputs.cache
+/Users/richardteerlink/Desktop/NumberTheoryApp/bin/iPhoneSimulator/Release/NumberTheoryApp.exe
+/Users/richardteerlink/Desktop/NumberTheoryApp/bin/iPhoneSimulator/Release/NumberTheoryApp.pdb
+/Users/richardteerlink/Desktop/NumberTheoryApp/obj/iPhoneSimulator/Release/NumberTheoryApp.exe
+/Users/richardteerlink/Desktop/NumberTheoryApp/obj/iPhoneSimulator/Release/NumberTheoryApp.pdb

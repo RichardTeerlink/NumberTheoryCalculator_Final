@@ -1,0 +1,6 @@
+RemoveDynamicRegistrar:true
+/Users/richardteerlink/Desktop/NumberTheoryApp/bin/iPhone/Release/NumberTheoryApp.app:/Users/richardteerlink/Desktop/NumberTheoryApp/obj/iPhone/Release/mtouch-cache/1-Link/NumberTheoryApp.exe
+/Users/richardteerlink/Desktop/NumberTheoryApp/bin/iPhone/Release/NumberTheoryApp.app:/Users/richardteerlink/Desktop/NumberTheoryApp/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+/Users/richardteerlink/Desktop/NumberTheoryApp/bin/iPhone/Release/NumberTheoryApp.app:/Users/richardteerlink/Desktop/NumberTheoryApp/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+/Users/richardteerlink/Desktop/NumberTheoryApp/bin/iPhone/Release/NumberTheoryApp.app:/Users/richardteerlink/Desktop/NumberTheoryApp/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+/Users/richardteerlink/Desktop/NumberTheoryApp/bin/iPhone/Release/NumberTheoryApp.app:/Users/richardteerlink/Desktop/NumberTheoryApp/obj/iPhone/Release/mtouch-cache/1-Link/System.Core.dll

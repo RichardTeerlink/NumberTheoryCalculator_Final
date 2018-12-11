@@ -1,0 +1,10 @@
+Function=xamarin_timezone_get_data
+	/Users/richardteerlink/Desktop/NumberTheoryApp/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_log
+	/Users/richardteerlink/Desktop/NumberTheoryApp/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Users/richardteerlink/Desktop/NumberTheoryApp/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/richardteerlink/Desktop/NumberTheoryApp/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/richardteerlink/Desktop/NumberTheoryApp/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll

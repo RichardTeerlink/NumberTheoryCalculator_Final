@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberTheoryApp", "NumberTheoryApp\NumberTheoryApp.csproj", "{27256893-6282-4423-A464-208D16FDBCC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27256893-6282-4423-A464-208D16FDBCC9}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{27256893-6282-4423-A464-208D16FDBCC9}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{27256893-6282-4423-A464-208D16FDBCC9}.Release|iPhone.ActiveCfg = Release|iPhone
+		{27256893-6282-4423-A464-208D16FDBCC9}.Release|iPhone.Build.0 = Release|iPhone
+		{27256893-6282-4423-A464-208D16FDBCC9}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{27256893-6282-4423-A464-208D16FDBCC9}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{27256893-6282-4423-A464-208D16FDBCC9}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{27256893-6282-4423-A464-208D16FDBCC9}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+EndGlobal
