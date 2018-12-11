@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"> 
+    <Button
+        android:text="Encrypt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/encryptButton" /> 
+    <Button
+        android:text="Decrypt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/encryptButton"
+        android:id="@+id/decryptButton" />
+    <TextView
+        android:text="Message:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_below="@id/decryptButton"  
+        android:id="@+id/textView1" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:id="@+id/messageText"
+        android:text="Enter message here" />
+    <TextView
+        android:text="Public Key:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/messageText"
+        android:id="@+id/pub_key_prompt" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pub_key_prompt"
+        android:id="@+id/pubKey"
+        android:text="Enter public key here" />
+    <TextView
+        android:text="Block Size:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pubKey"
+        android:id="@+id/block_size_prompt" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/block_size_prompt"
+        android:id="@+id/blockSize"
+        android:text="Enter block size here" />
+    <Button
+        android:text="Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/blockSize"
+        android:id="@+id/submitButton1" />
+
+    <TextView
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/submitButton1"
+        android:id="@+id/error_space" />
+    <TextView
+        android:text="Base 10 conversion of first block:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/error_space"
+        android:id="@+id/conv_ten_prompt" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/conv_ten_prompt"
+        android:id="@+id/baseTenBlock"
+        android:text="Enter base 10 of first block" />
+    <Button
+        android:text="Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/baseTenBlock"
+        android:id="@+id/submitButton_new" />
+
+    <TextView
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/submitButton_new"
+        android:id="@+id/tenBlocks" />
+    <TextView
+        android:text="Private Key:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tenBlocks"
+        android:id="@+id/pri_key_prompt" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pri_key_prompt"
+        android:id="@+id/priKey"
+        android:text="Enter private key here" />
+    <TextView
+        android:text="First Encrypted Block (base 10):"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/priKey"
+        android:id="@+id/enc_block_prompt" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enc_block_prompt"
+        android:id="@+id/encryptBlock1"
+        android:text="Enter encryption of block 1 (base 10)" />
+    <Button
+        android:text="Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/encryptBlock1"
+        android:id="@+id/submitButton2" />
+
+    <TextView
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/submitButton2"
+        android:id="@+id/tenEncBlocks" />
+    <TextView
+        android:text="Output Block Size:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tenEncBlocks"
+        android:id="@+id/out_block_prompt" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/out_block_prompt"
+        android:id="@+id/outputBlockSize"
+        android:text="Enter output block size" />
+    <Button
+        android:text="Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/outputBlockSize"
+        android:id="@+id/submitButton_out" />
+
+    <TextView
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/submitButton_out"
+        android:id="@+id/out_block_error" />    
+    <TextView
+        android:text="Base 27 Conversion of First Block:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/out_block_error"
+        android:id="@+id/enc_27_prompt" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enc_27_prompt"
+        android:id="@+id/baseTwentySeven"
+        android:text="Enter base 27 conversion of block 1" />
+    <Button
+        android:text="Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/baseTwentySeven"
+        android:id="@+id/submitButton3" />
+
+    <TextView
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/submitButton3"
+        android:id="@+id/twentySevenBlocks" />
+</RelativeLayout>
+</ScrollView> 

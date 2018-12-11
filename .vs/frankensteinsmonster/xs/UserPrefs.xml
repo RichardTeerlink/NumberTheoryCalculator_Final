@@ -1,0 +1,10 @@
+﻿<Properties StartupConfiguration="{69806D40-4D15-4F3F-A115-EF44664522F3}|Default">
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.frankensteinsmonster PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+</Properties>

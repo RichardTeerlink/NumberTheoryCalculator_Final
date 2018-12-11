@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:text="Reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/resetBttn" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/resetBttn"
+        android:id="@+id/error_space"
+        android:text="" />
+    <TextView
+        android:text="Message:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/error_space"
+        android:id="@+id/messageTag" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/messageTag"
+        android:id="@+id/messageText"
+        android:text="enter message" />
+    <TextView
+        android:text="Enter rotor arrangement (ex: ABCDEF):"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/messageText"
+        android:id="@+id/rotor_prompt" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rotor_prompt"
+        android:id="@+id/rotor_order"
+        android:text="enter rotor arrangement" />
+    <TextView
+        android:text="Rotor starting position (ex: A):"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rotor_order"
+        android:id="@+id/top_prompt" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top_prompt"
+        android:id="@+id/top_letter"
+        android:text="enter top letter here" />
+    <TextView
+        android:text="Enter Reflector Pairs (ex: AB CD EF):"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top_letter"
+        android:id="@+id/reflect_prompt" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reflect_prompt"
+        android:id="@+id/reflect_pairs"
+        android:text="enter reflector pairs" />
+    <Button
+        android:text="Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reflect_pairs"
+        android:id="@+id/submitButton" />
+   <TextView
+        android:text="The Original Message:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/submitButton"
+        android:id="@+id/message_restate_txt" />
+
+    <TextView
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/message_restate_txt"
+        android:id="@+id/message_restate" />
+    <TextView
+        android:text="The Encoded Message:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/message_restate"
+        android:id="@+id/new_message_txt" />
+    <TextView
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/new_message_txt"
+        android:id="@+id/new_message" />
+    <TextView
+        android:text="Initial Rotor Order (rotor is inner circle):"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/new_message"
+        android:id="@+id/rotor_tag" />
+    <TextView
+        android:text="                A                "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rotor_tag"
+        android:id="@+id/line1" />
+    <TextView
+        android:text="    F                       B    "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line1"
+        android:id="@+id/line2" />
+    <TextView
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line2"
+        android:id="@+id/line3" />
+    <TextView
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line3"
+        android:id="@+id/line4" />
+    <TextView
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line4"
+        android:id="@+id/line5" />
+    <TextView
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line5"
+        android:id="@+id/line6" />
+    <TextView
+        android:text="    E                       C    "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line6"
+        android:id="@+id/line7" />
+    <TextView
+        android:text="                D                "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line7"
+        android:id="@+id/line8" />
+    <TextView
+        android:text="Reflector Order (corresponding to ABCDEF):"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line8"
+        android:id="@+id/reflect_out_prompt" />
+    <TextView
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reflect_out_prompt"
+        android:id="@+id/reflect_out" />
+</RelativeLayout>
+</ScrollView>
